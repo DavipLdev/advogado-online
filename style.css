@@ -1,0 +1,182 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1.8rem;
+}
+header span{
+    color: black;
+    font-size: 1.8rem;
+}
+.nav-bar{
+    display: flex;
+    gap: 2rem;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar li{
+    list-style: none;
+}
+
+
+
+
+
+.conteiner1{
+    max-width: 100%;
+}
+.carosel{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.carosel img{
+max-width: 100%;
+height: 100vh;
+}
+
+
+
+
+
+
+.conteiner2{
+background-color: black;
+margin-bottom: 2rem;
+padding: 3rem;
+}
+.conteiner2 h1{
+   text-align: center;
+   color: blue;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.cards div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cards div h2{
+    color: blue;
+}
+.cards div p{
+    text-align: center;
+    width: 80%;
+    color: white;
+    margin: auto;
+}
+
+
+
+
+
+.conteiner3{
+    background-color: rgb(236, 236, 236);
+    
+    padding: 3rem;
+   
+    }
+    .conteiner3 h1{
+       text-align: center;
+       color: blue;
+    }
+    .cards2{
+        display: flex;
+        margin-left: 6rem;
+        max-width: 100%;
+        margin-top: 5rem;
+    }
+    .cards2 div{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    .cards2 div h2{
+        color: blue;
+        font-size: 1.5rem;
+    }
+    .cards2 div p{
+        text-align: center;
+        width: 60%;
+        color: rgb(0, 0, 0);
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+    .conteiner4{
+        background-color: rgb(255, 255, 255);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        padding: 2rem;
+       
+        }
+        .conteiner4 h1{
+           text-align: center;
+           color: blue;
+        }
+        .cards3{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: -.2rem;
+            max-width: 100%;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+        .cards3 div{
+            display: flex;
+            align-items: center;
+            gap: 1.3rem;
+            flex-direction: column;
+        }
+       
+        .cards3 div h2{
+            color: blue;
+            font-size: 1.5rem;
+        }
+        .cards3 div p{
+            text-align: center;
+            width: 80%;
+            color: rgb(0, 0, 0);
+            margin: auto;
+        }
+        .btn4{
+            text-align: center;
+            background-color: blue;
+            width: 10%;
+            padding: .7rem .2rem;
+        }
+        .btn4{
+            text-align: center;
+            border-radius: 2rem;
+        }
+        .btn4 a{
+            text-decoration: none;
+            color: white;
+        }
+        .btn4 a:hover{
+            color: black;
+            color: white;
+        }

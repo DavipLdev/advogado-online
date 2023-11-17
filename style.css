@@ -39,11 +39,25 @@ header span{
     display: flex;
     align-items: center;
     max-width: 100%;
+    overflow: visible;
+    animation: carosel 9s infinite alternate-reverse ease-in-out;
 }
 .carosel img{
 max-width: 100%;
 height: 100vh;
 }
+@keyframes carosel {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translatex(-2860px);
+    }
+}
+
+
+
+
 
 
 
